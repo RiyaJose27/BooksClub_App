@@ -41,7 +41,7 @@
 							<c:choose>
 									<c:when test="${i.user.id == user.id}">
 									    <a href="/editBook/${i.id }">Edit</a>
-									<a href="/destroy/${id}">Delete</a>
+									<a href="/destroy/${i.id}">Delete</a>
 									</c:when>
 									</c:choose>
 																
